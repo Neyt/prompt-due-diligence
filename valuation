@@ -1,95 +1,207 @@
+Stock Ticker/Company Name: [Insert Stock Ticker and Company Name Here]  
+Stock Price, Market Cap, and Debt:  
+Current Stock Price: [Fetch the latest stock price as of the analysis date].  
 
+Market Cap: [Calculate as Stock Price × Shares Outstanding].  
 
-Stock Ticker/Company Name: [Insert Stock Ticker and Company Name Here]
-post stock price, maket cap and debt
+Total Debt: [Fetch from the latest balance sheet].  
 
-Whenever possible sumarize bar chart displaying financial performance metrics over time instead of text
+Data Source: Use financial APIs (e.g., yfinance, GuruFocus) or reputable financial websites (e.g., Yahoo Finance, Bloomberg). If unavailable, state: “Market data unavailable due to lack of accessible data.”
 
-1. Understand the Business and Identify Key Assets: (reserach the last oficial values for all of them the idea is to quantify as much as posible)
-		* Describe the Business: Briefly explain what the company does. What industry is it in? What are its primary revenue streams? Keep it simple and focused on the core business. (Buffett/Munger Principle: Understandable Business)Data Source: Edgar.gov, the company's website (About Us, presentation, Company Overview, Investor Relations sections, etc). If needed, consult reputable financial websites or news sources. like seeking alpha for opinions, gurufocus.
-	* Identify Key Assets: What are the company's most significant assets? Be specific. Are they:
-		* Tangible Assets: Cash, real estate, inventory, equipment, mineral resources, intellectual property, brands, etc.? List the specific types of assets relevant to this company.
-		* Intangible Assets: Brands, patents, licenses, proprietary technology? If so, are these durable and valuable?
-		* Data Source: Primarily the company's website (Investor Relations, Company Information, Asset sections) and financial statements (Balance Sheet). If needed, use EDGAR (for SEC filings of US companies) or equivalent regulatory filing sites for non-US companies to access official financial reports.
-	* Asset Play Thesis: Why is this company potentially considered an "asset play"? What is the core thesis for potential undervaluation? Is it based on:
-		* Undervalued Tangible Assets: Are specific assets carried on the balance sheet potentially worth significantly more than their book value?
-		* Hidden Assets: Are there assets not fully reflected on the balance sheet or whose value is not widely appreciated?
-		* Sum-of-the-Parts Valuation: Is the company worth more if its assets were sold off separately than its current market capitalization?
-		* Distress or Turnaround Situation: Is the company undervalued due to temporary problems or market pessimism that obscures the underlying asset value?
-		* Data Source: Information gathered from company website, news articles, investor forums (with caution), and your own reasoned analysis based on available data.
-2. Apply Buffett & Munger's Investment Principles:
-	* Understandable Business? (Yes/No/Partially): How well do you understand this business and its industry? Is it within your "circle of competence"? Explain briefly.
-		* Data Source: Your own knowledge base, combined with information gleaned from the company website, industry reports (if accessible online), and reputable business news sources.
-	* Durable Competitive Advantage (Moat)? (Strong/Weak/None/Irrelevant for Asset Play): Does the company have a durable competitive advantage in its operating business? If it's purely an asset play, is a traditional "moat" relevant? Are there "moats" around the assets themselves (e.g., unique resource deposit)? Explain your assessment.
-		* Data Source: Company website (About Us, Products/Services, Competitive Advantages sections), industry reports (if available), competitor analysis (from company website or industry news), and business news articles.
-	* Honest and Competent Management? (Assessable/Unclear/Questionable): What is your assessment of the management team? Do they have a track record of:
-		* Value creation for shareholders?
-		* Prudent capital allocation?
-		* Honesty and transparency?
-		* For an asset play, is management likely to unlock asset value, or are they an impediment? Explain your reasoning.
-		* Data Source: Company website (Management Team/Board of Directors section, Investor Relations - presentations and transcripts), EDGAR (proxy statements, insider trading activity, past filings for management track record), reputable financial news sites, and potentially Glassdoor/employee reviews (with caution).
-	* Favorable Economics? (Potentially/Unclear/Unlikely): Even if it's an asset play, consider the underlying economics of the business or the assets themselves.
-		* Can the assets generate cash flow (directly or indirectly)?
-		* Are the assets in industries with favorable long-term trends?
-		* Are there significant risks or headwinds affecting the asset value? Explain your assessment.
-		* Data Source: Company website (Investor Relations, Financials, Products/Services sections), industry reports, economic forecasts (for relevant industries or commodities), and reputable business news sources.
-3. Asset-Based Valuation (Conservative Approach):
-	* Choose Relevant Assets for Valuation: Which specific assets are you going to focus on for your valuation? Be clear about your selection.
-	* Conservative Valuation Method: Describe the conservative method you will use to value these assets.
-		* Data Source: Method choice is based on your understanding of valuation principles. Justify your chosen method as being conservative for the specific asset type.
-	* Key Assumptions: List your key assumptions for your valuation. Be explicit and justify why they are conservative. Examples:
-		* Commodity Prices (for resource assets): Use conservative long-term prices.
-		* Discount Rates (for future cash flows): Use high discount rates to reflect risk and uncertainty.
-		* Recovery Rates (for resources, etc.): Use conservative recovery rates.
-		* Operating Costs: Overestimate costs and include contingencies.
-		* Sale Prices (for comparable assets): Use the lower end of comparable ranges.
-		* Data Source: Justify your assumptions based on industry data, historical averages, expert opinions (if available online), and your own reasoned judgment in being conservative.
-	* Data Sources for Valuation Inputs: Specify where you will find the data to input into your valuation calculations based on your chosen method and assumptions. (Company reports, financial statements (EDGAR or equivalent), industry data, comparable transactions (if publicly available - sometimes in press releases or industry databases), expert reports (if available – often in company technical reports for mining etc.), etc.)
-	* Calculate a Range of Asset Values (Conservative to Very Conservative): Provide a range of potential asset values based on your conservative assumptions. Show your calculations (or explain your methodology clearly).
-4. Compare Asset Value to Market Capitalization:
-	* Current Market Cap: What is the company's current market capitalization?
-		* Data Source: Reputable financial websites (Yahoo Finance, Google Finance, Bloomberg, etc.).
-	* Margin of Safety Calculation: Calculate the margin of safety. How much lower is the current market cap compared to your conservative asset valuation? Express as a percentage discount.
-		* Is the Margin of Safety Sufficiently Large? (Yes/No/Unclear): Based on the risks involved and the uncertainties in your asset valuation, is the margin of safety large enough to be attractive from a Buffett/Munger perspective? Explain your reasoning. (Buffett/Munger Principle: Margin of Safety)Data Source: Your calculated asset value and current market cap data. Justify your "sufficiency" threshold based on risk assessment.
-5. Catalysts for Value Realization:
-	* Identify Potential Catalysts: What events or developments could cause the market to recognize the potential undervaluation and for the stock price to reflect your estimated asset value? Examples:
-		* Improved Operating Performance (if applicable to the business)?
-		* Asset Sales or Spin-offs?
-		* Resource Estimate Updates (for resource companies)?
-		* Positive Regulatory or Industry Developments?
-		* Acquisition Interest?
-		* Data Source: Company news releases (Company Website - News/Press Releases, EDGAR filings for material events), industry news, and your own analysis of potential future developments.
-	* Are Catalysts Plausible and Timely? (Yes/No/Unclear): How likely are these catalysts to occur? Is there a reasonable timeframe for value realization, or could it be a very long-term and uncertain wait? Explain.
-		* Data Source: Your assessment based on industry knowledge, company communications, and overall economic and market conditions.
-		* Intangibles like licenses and others, and how much are they valued at the open market now a days.
-6. Durable competitive adavantage:
-		Make an analisis like Michael porter (updated): Find it the company is best in class in any dureble competitive advantage, if not find what companies are in its industry. and make a list with bullet points.
-7. "Too Hard Pile" Checkpoint:
-	* "Too Hard" Factors: Considering all aspects of your analysis, are there significant factors that make valuing this stock "too hard" or too uncertain from a Buffett/Munger perspective? Consider:
-		* Industry Complexity and Uncertainty?
-		* Regulatory Risks?
-		* Commodity Price Volatility (if applicable)?
-		* Management Quality Concerns? (When Assessing management's competence is difficult without a longer track record. look for their reputation online, or compare all of their past fillings to figure out if they delivered in their promises)
-		* Lack of Data or Transparency?
-		* Overall Speculative Nature of the Situation?
-		* Data Source: Your overall assessment based on all the data and analysis you've gathered.
-	* "Too Hard" Conclusion (Yes/No/Borderline): Based on the "too hard" factors, would Buffett and Munger likely put this stock in their "too hard pile"? Explain your reasoning.
-		* Data Source: Your overall judgment based on your understanding of Buffett/Munger's investment style and risk aversion.
-8. Overall Conclusion and Investment Stance (Hypothetical Buffett/Munger View):
-	* Summarize your findings.
-	* Recomend the best way to value it from gurufocus valuation section
-	* Based on your analysis and the Buffett-Munger principles, what would be their likely overall investment stance on this stock today? (Strong Buy - Highly Unlikely for an Asset Play, Mildly Interesting at a Much Lower Price, Neutral/Pass, "Too Hard Pile - Avoid"). And even if its too hard give it a fair value per stock based no your research.
-	* What conditions or price points might make this stock more interesting from a deep value, asset play perspective (if any)?
-	* finally show per share valuation on asset play, earning based, cash flow based and with growth projection.
-	* list the sentiment on the stocks, and popular current issues, could it be a value trap?
-To summarize the different valuation approaches, we visualize them in a horizontal bar chart. The chart compares:
-	* Earnings Power Value
-	* Net Current Asset Value
-	* Tangible Book Value
-	* Projected Free Cash Flow (FCF)
-	* Market Price (Reference Line)
-	* Bull case thesis (and per share valuation fully diluted if this comes true)
-	* normal case thesis (and per share valuation fully diluted if this comes true)
-	* bear case thesis (and per share valuation fully diluted if this comes true)
+Instructions for Financial Performance Visualization:
+Whenever possible, summarize financial performance metrics (e.g., revenue, net income, EBIT, FCF) over time using a bar chart instead of text. The chart should display historical data (past 5 years) and, where applicable, projected data (next 10 years) based on analyst expectations or trend continuation.
+1. Understand the Business and Identify Key Assets
+Describe the Business: Briefly explain what the company does, its industry, and primary revenue streams. Focus on the core business to ensure it’s an understandable business (Buffett/Munger Principle: Understandable Business).  
+Data Source: Use EDGAR (SEC filings: 10-K “Business” section), the company’s website (About Us, Company Overview, Investor Relations), or reputable financial websites (e.g., Seeking Alpha, GuruFocus) for opinions and summaries. If unavailable, state: “Business description unavailable due to lack of accessible data.”
 
+Identify Key Assets: Quantify the company’s most significant assets as much as possible using the latest official values. Categorize them as:  
+Tangible Assets: Cash, real estate, inventory, equipment, mineral resources, intellectual property, brands, etc. List specific assets and their book values.  
+
+Intangible Assets: Brands, patents, licenses, proprietary technology. Assess if these are durable and valuable, and estimate their market value if possible (see Competitive Advantage for valuation method).  
+
+Data Source: Fetch from the latest balance sheet (EDGAR: 10-K, 10-Q) or company website (Investor Relations, Asset sections). If unavailable, state: “Asset data unavailable due to missing financial statements.”
+
+Asset Play Thesis: Explain why this company is potentially an “asset play” and the core thesis for undervaluation. Consider:  
+Undervalued Tangible Assets: Are specific assets on the balance sheet worth more than their book value?  
+
+Hidden Assets: Are there assets not fully reflected on the balance sheet or not widely appreciated?  
+
+Sum-of-the-Parts Valuation: Is the company worth more if its assets were sold separately than its current market cap?  
+
+Distress or Turnaround Situation: Is the company undervalued due to temporary problems or market pessimism obscuring asset value?  
+
+Data Source: Use company filings, news articles (via web search), investor forums (with caution), and your reasoned analysis. If data is insufficient, state: “Asset play thesis incomplete due to lack of accessible data.”
+
+2. Apply Buffett & Munger's Investment Principles
+Understandable Business? (Yes/No/Partially): Assess how well you understand the business and its industry. Is it within your “circle of competence”? Explain briefly.  
+Data Source: Base on your knowledge, supplemented by the company website, industry reports (via web search), and reputable business news sources (e.g., Bloomberg, Reuters). If unclear, state: “Business understanding unclear due to limited data.”
+
+Durable Competitive Advantage (Moat)? (Strong/Weak/None/Irrelevant for Asset Play): Evaluate if the company has a durable competitive advantage in its operating business or around its assets (e.g., unique resource deposit).  
+Qualitative Assessment: Identify moat components (e.g., brand, cost advantage, network effects, regulatory barriers).  
+
+Quantitative Valuation of Moat Components: For each component, find comparable companies in the same industry that were recently acquired or transacted (within the last 3 years). Estimate the value of each component based on transaction multiples (e.g., brand value as a percentage of acquisition price, licenses valued per license in similar deals). Sum the values to provide a total moat value.  
+
+Data Source:  
+Qualitative: Company website (About Us, Products/Services, Competitive Advantages), industry reports, competitor analysis (via web search).  
+
+Quantitative: Web search for recent acquisitions (e.g., “cannabis company acquisitions 2022-2025”), financial databases (e.g., PitchBook, GuruFocus).
+
+Instruction: If transaction data is unavailable, state: “Moat valuation unavailable due to lack of comparable transaction data.” Provide the qualitative assessment only in such cases.
+
+Honest and Competent Management? (Assessable/Unclear/Questionable): Assess the management team’s track record in:  
+Value creation for shareholders.  
+
+Prudent capital allocation.  
+
+Honesty and transparency.  
+
+For an asset play, evaluate if management is likely to unlock asset value or act as an impediment.  
+
+Data Source: Company website (Management Team, Investor Relations), EDGAR (proxy statements, insider trading activity, past filings), reputable financial news sites, and employee reviews (e.g., Glassdoor, with caution). If unavailable, state: “Management assessment unavailable due to missing data.”
+
+Favorable Economics? (Potentially/Unclear/Unlikely): Even for an asset play, consider the economics of the business or assets:  
+Can the assets generate cash flow (directly or indirectly)?  
+
+Are the assets in industries with favorable long-term trends?  
+
+Are there significant risks or headwinds affecting asset value?  
+
+Data Source: Company website (Investor Relations, Financials), industry reports (via web search), economic forecasts, and business news sources. If data is insufficient, state: “Economic assessment incomplete due to lack of data.”
+
+3. Asset-Based Valuation (Conservative Approach)
+Choose Relevant Assets for Valuation: Specify which assets to focus on for valuation (e.g., real estate, licenses).  
+
+Conservative Valuation Method: Describe the method used to value these assets (e.g., replacement cost for tangible assets, market comparables for intangibles). Justify why the method is conservative.  
+
+Key Assumptions: List assumptions (e.g., commodity prices, discount rates, recovery rates, operating costs, sale prices). Justify why they are conservative using industry data, historical averages, or expert opinions (via web search).  
+
+Data Sources for Valuation Inputs: Specify sources for valuation inputs (e.g., company reports, EDGAR financial statements, industry data, comparable transactions via web search, expert reports).  
+
+Calculate a Range of Asset Values (Conservative to Very Conservative): Provide a range of potential asset values based on your assumptions. Show calculations or explain the methodology clearly.  
+Instruction: If data is missing, state: “Asset valuation unavailable due to missing data.”
+
+4. Compare Asset Value to Market Capitalization
+Current Market Cap: [Already provided at the beginning].  
+
+Margin of Safety Calculation: Calculate the margin of safety as a percentage: [(Conservative Asset Value - Market Cap) / Market Cap] × 100.  
+Is the Margin of Safety Sufficiently Large? (Yes/No/Unclear): Assess if the margin of safety is attractive from a Buffett/Munger perspective, considering risks and uncertainties. Justify your threshold based on risk assessment.  
+
+Data Source: Use your calculated asset value and market cap data. If unavailable, state: “Margin of safety calculation unavailable due to missing data.”
+
+5. Catalysts for Value Realization
+Identify Potential Catalysts: List events that could cause the market to recognize the undervaluation (e.g., asset sales, spin-offs, regulatory developments, acquisition interest).  
+Data Source: Company news releases (website, EDGAR filings), industry news (via web search), and your analysis of potential developments.
+
+Are Catalysts Plausible and Timely? (Yes/No/Unclear): Assess the likelihood and timeframe for these catalysts.  
+Data Source: Base on industry knowledge, company communications, and market conditions. If data is insufficient, state: “Catalyst assessment incomplete due to lack of data.”
+
+6. Durable Competitive Advantage
+Michael Porter-Style Analysis: Analyze the company’s competitive position using a modernized Porter’s Five Forces framework to determine if it’s best-in-class in any durable competitive advantage. If not, identify best-in-class companies in the industry.  
+Forces to Analyze:  
+Threat of New Entrants: Barriers to entry (e.g., licenses, capital requirements).  
+
+Bargaining Power of Suppliers: Dependency on key inputs.  
+
+Bargaining Power of Buyers: Customer concentration and switching costs.  
+
+Threat of Substitutes: Alternative products or services.  
+
+Industry Rivalry: Intensity of competition and market share dynamics.
+
+Best-in-Class Assessment: Determine if the company leads in any competitive advantage (e.g., cost leadership, differentiation, niche focus). If not, list best-in-class competitors with their advantages.  
+
+Data Source: Company filings (10-K “Competition” section), industry reports (via web search), competitor websites, and news articles. If unavailable, state: “Competitive advantage analysis incomplete due to missing data.”  
+
+Output: Provide a bullet-point list of findings (e.g., “- Company X: Best-in-class in cost leadership due to scale.”).
+
+7. "Too Hard Pile" Checkpoint
+"Too Hard" Factors: Assess if the stock is “too hard” to value from a Buffett/Munger perspective:  
+Industry Complexity and Uncertainty.  
+
+Regulatory Risks.  
+
+Commodity Price Volatility (if applicable).  
+
+Management Quality Concerns: Assess reputation via web search or compare past filings to see if management delivered on promises.  
+
+Lack of Data or Transparency.  
+
+Overall Speculative Nature.  
+
+Data Source: Base on all data gathered (filings, news, industry reports). If data is insufficient, state: “Too hard assessment incomplete due to missing data.”
+
+"Too Hard" Conclusion (Yes/No/Borderline): Would Buffett and Munger likely put this stock in their “too hard pile”? Explain.  
+Data Source: Your judgment based on Buffett/Munger’s risk aversion principles.
+
+8. Overall Conclusion and Investment Stance (Hypothetical Buffett/Munger View) (Updated with Dilution Comparison)
+Summarize Findings: Recap key points from the analysis.  
+
+Recommended Valuation Method from GuruFocus: Identify the best valuation method from GuruFocus’s valuation section (e.g., DCF, Peter Lynch Earnings Line) based on the company’s characteristics (e.g., growth stage, industry).  
+Data Source: GuruFocus valuation tools (using provided API token). If unavailable, state: “GuruFocus valuation unavailable due to missing data.”
+
+Dilution Analysis (New): Compare fully diluted shares versus current available shares to understand the potential for dilution.  
+Current Shares Outstanding: Fetch the number of shares currently outstanding.  
+
+Fully Diluted Shares: Calculate the fully diluted share count by adding potential shares from convertible securities (e.g., stock options, warrants, convertible debt).  
+
+Dilution Impact: Calculate the percentage increase in shares: [(Fully Diluted Shares - Current Shares) / Current Shares] × 100. Assess the impact on per-share valuations (e.g., “A 20% dilution would reduce per-share value by 20%”).  
+
+Data Source: Fetch from the latest 10-K or 10-Q (Notes to Financial Statements: “Stock Options,” “Warrants,” “Convertible Debt”), or financial APIs (e.g., yfinance, GuruFocus). If unavailable, state: “Dilution analysis unavailable due to missing data.”
+
+Buffett/Munger Investment Stance: Based on the analysis, determine their likely stance (Strong Buy, Mildly Interesting at a Lower Price, Neutral/Pass, Too Hard Pile - Avoid).  
+
+Fair Value Per Share (Even if Too Hard): Provide a fair value per share using:  
+Asset Play Valuation: From Section 3 (Asset-Based Valuation). Divide by fully diluted shares to show per-share value.  
+
+Earnings-Based Valuation:  
+Calculate Earnings Power:  
+Fetch revenue and EBIT for the past 5 years.  
+
+Check if revenue has been growing over the last 3 years (Year 3 > Year 2 > Year 1).  
+If growing: Calculate the 3-year average EBIT, adjust by the 3-year revenue CAGR [Adjusted EBIT = 3-Year Average EBIT × (1 + CAGR)], then adjust for taxes (21%) and maintenance capex (fetch from cash flow statements or estimate as 5% of the corresponding year’s revenue).  
+
+If not growing: Use the 5-year average EBIT, adjusted for taxes and maintenance capex.
+
+Capitalize the adjusted EBIT at 10x to get Earnings Power Value.  
+
+Divide by fully diluted shares to get per-share value.
+
+Data Source: Income statements (EDGAR, yfinance, GuruFocus), shares outstanding (yfinance, GuruFocus).
+
+Cash Flow-Based Valuation:  
+Use the 10-year FCF projections from the Comprehensive Due Diligence prompt (historical 5 years + projected 10 years based on analyst expectations or trend continuation).  
+
+Discount at 10%, add a terminal value (3% perpetual growth), and divide by fully diluted shares.
+
+Growth Projection Valuation:  
+Adjust the Cash Flow-Based Valuation by applying a higher growth rate (e.g., 5-year historical revenue CAGR) to the FCF projections if the company is in a high-growth phase. Divide by fully diluted shares.
+
+Conditions for Interest: Specify conditions or price points that would make the stock more attractive (e.g., “If stock price falls below $X, margin of safety improves”).  
+
+Market Sentiment and Issues:  
+Analyze sentiment via X posts (e.g., “$[Ticker]”) and web search (e.g., “[Ticker] stock sentiment 2025”). Summarize as Positive, Neutral, or Negative with supporting quotes.  
+
+Identify popular current issues (e.g., regulatory concerns, debt levels).  
+
+Assess if it could be a value trap (e.g., persistent issues that prevent value realization).  
+
+Data Source: X posts, news articles, analyst reports (via web search). If unavailable, state: “Sentiment analysis unavailable due to lack of data.”
+
+Valuation Visualization:
+Summarize the valuation approaches in a horizontal bar chart comparing:  
+Earnings Power Value (per share, fully diluted).  
+
+Net Current Asset Value (per share, fully diluted: Current Assets - Total Liabilities ÷ Fully Diluted Shares).  
+
+Tangible Book Value (per share, fully diluted: Total Assets - Intangibles - Liabilities ÷ Fully Diluted Shares).  
+
+Projected Free Cash Flow (per share, fully diluted: from Cash Flow-Based Valuation).  
+
+Market Price (per share: reference line).  
+
+Bull Case Thesis (per share, fully diluted): Adjust FCF projections upward (e.g., 20% higher growth) based on bull case from Comprehensive Due Diligence.  
+
+Normal Case Thesis (per share, fully diluted): Use the base FCF projections.  
+
+Bear Case Thesis (per share, fully diluted): Adjust FCF projections downward (e.g., 20% lower growth) based on bear case from Comprehensive Due Diligence.
 
